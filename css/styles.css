@@ -128,18 +128,18 @@ button{
 }
 /* -----------HERO--------*/
 .hero{
-    min-width: 1440рх;
+    max-width: 1440px;
     margin: 0 auto;
-    background-image: var(--bg-gradient),
+    background-image: 
+    var(--bg-gradient),
     url(../images/people-office.jpg);
+    background-color: var(--main-title-color);
     background-repeat: no-repeat;
     background-position: center;
     background-size: cover;
-    background-color: var(--main-title-color);
     text-align: center;
     padding-top: 188px;
-    padding-bottom: 188px;
-    
+    padding-bottom: 188px;   
 }
 .hero-title{
     width: 496px;
@@ -384,6 +384,7 @@ button{
     background: var(--accent-color);
     border: 1px solid var(--accent-color);
     cursor: pointer;
+    box-shadow: 0px 3px 1px rgba(0, 0, 0, 0.1), 0px 2px 1px rgba(0, 0, 0, 0.08), 0px 2px 2px rgba(0, 0, 0, 0.12);
 }
 /* -----------PORTFOLIO--------*/
 .portfolio-list {
@@ -393,6 +394,12 @@ button{
 }
 .portfolio-item {
     width: 360px;
+}
+.portfolio-item:hover, .portfolio-item:focus{
+box-shadow: 0px 1px 6px rgba(46, 47, 66, 0.08), 0px 1px 1px rgba(46, 47, 66, 0.16), 0px 2px 1px rgba(46, 47, 66, 0.08);
+}
+.portfolo-link{
+    
 }
 .portfolio-wrap{
     padding: 32px 16px;
